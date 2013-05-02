@@ -1,0 +1,21 @@
+--- 
+open_files: 
+  - Gemfile
+  - app/controllers/works_controller.rb
+  - app/controllers/application_controller.rb
+  - app/models/work.rb
+  - app/controllers/main_controller.rb
+  - app/views/main/index.html.erb
+  - config/routes.rb
+  - app/views/works/index.html.erb
+  - app/views/main/startwork.html.erb
+  - config/environment.rb
+  - config/application.rb
+  - config/boot.rb
+  - config/database.yml
+  - config/locales/en.yml
+  - config/environments/development.rb
+  - config/environments/production.rb
+  - config/environments/test.rb
+  - app/views/works/show.html.erb
+  - app/views/main/endwork.html.erb
