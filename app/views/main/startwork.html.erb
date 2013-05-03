@@ -1,3 +1,8 @@
-<p>Work started <%=@work.start%></p>
+<div class="hero-unit">
+  <h1>Work!!!</h1>
+  <p>Work started <%=@work.start%></p>
+  <p>
+<%= link_to "End", { :action => "endwork", :id => @work.id }, :class => "btn btn-large btn-primary" %>
+  </p>
+</div>
 
-<%= link_to "End", :action => "endwork", :id => @work.id %>

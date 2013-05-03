@@ -1,2 +1,11 @@
-<p>Pracowałeś przez <%= @worktime %> sekundy</p>
-<%= link_to "Start", :action => "startwork" %>
+<div class="hero-unit">
+  <h1>Przerwa :)</h1>
+  <p>Pracowałeś przez <%= @worktime %> sekundy</p>
+  <p>
+<%= link_to "Start", {:action => "startwork"}, :class => "btn btn-large btn-primary" %>
+  </p>
+</div>
+
+
+
+
